@@ -1,0 +1,230 @@
+div
+{
+    width: 50%;
+    height: 60px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+.div1
+{
+    width: 3%;
+}
+.div2
+{
+    width: 45%;
+    height: 60px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+.divlogo
+{
+    width: 50%;
+    
+}
+.divicon /*div icon*/
+{
+    text-align: center;
+    width: 10%;
+    height: 58px;
+    
+    display: inline-block;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+}
+.headbuttondiv
+{
+    width: 25%;
+    height: 58px;
+    float: left;
+    padding: 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.divicon:hover /*div icon hover*/
+{
+    opacity: .8;
+}
+.iconimg /*icon images*/
+{
+    padding-top: 4px;
+    height: 30px;
+    width: 30px;
+    opacity: 1;
+}
+.iconimg:hover /*icon images hover*/
+{
+    opacity: .5;
+}
+img /*normal images*/
+{
+    height: 55px;
+}
+
+p
+{
+    font-size:small;
+    text-align:justify;
+   
+}
+h1
+{
+    text-align: center;
+    font-family:cursive;
+    
+    color: rgb(0, 0, 0);
+
+}
+h2
+{
+    font-family:cursive;
+    font-weight: bold;
+}
+h6
+{
+    font-family:cursive;
+    margin: 0%;
+    color: rgb(0, 0, 0);
+}
+
+.button {
+    background-color: #ddd;
+    font-family:cursive;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    box-sizing:border-box;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    
+  }
+  
+  .button:hover {
+    background-color: #f1f1f1;
+  }
+
+
+.leftbodydiv
+{
+    width: 40%;
+    height: 450px;
+    background-color:#ffffff;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.rightbodydiv
+{
+    width: 50%;
+    height: 490px;
+    background-position:center;
+    background-image: url(Image/Side-image.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+form
+{
+    margin-left: 10px;
+}
+input[type=text],[type=password],select
+{
+    width: 80%;
+    font-family:cursive;
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-sizing:border-box;
+}
+input[type=submit],button 
+{
+    width: 80%;
+    font-family:cursive;
+    background-color: #85c391;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 10px 8px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: .8;
+}
+input[type=submit]:hover,button:hover
+{
+    opacity: 1;
+}
+label
+{
+    font-weight: bold;
+    font-family:cursive;
+}
+.leftlowerbodydiv
+{
+    width: 50%;
+    height: 300px;
+    background-color: #cce7d1;
+}
+.rightlowerbodydiv
+{
+    width: 49%;
+    height: 300px;
+    background-color: #cce7d1;
+    
+}
+iframe
+{
+    padding: 25px;
+    width: 90%;
+    height: 240px;
+    border: 1px ;
+    
+}
+.lowerbutton
+{
+    width:fit-content;
+    font-family:cursive;
+    background-color: #85c391;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 10px 8px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: .8;
+}
+.footermenu
+{
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+}
+.footermenu ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+    
+}
+.footermenu ul li
+{
+    font-family:cursive;
+    margin: 5px;
+    padding: 1px;
+}
+.footermenu ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.footermenu ul li a:hover
+{
+    color: red;
+}
